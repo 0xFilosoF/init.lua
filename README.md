@@ -7,7 +7,7 @@
 - **Git Integration**: Advanced git workflows with Fugitive, Diffview, and Gitsigns
 - **Terminal Integration**: Seamless tmux navigation and terminal management
 - **AI Integration**: Windsurf (ex-Codeium)
-- **Other**: Support daps, snacks, noice, leap, trouble, etc
+- **Other**: Support daps, neotest, snacks, noice, leap, trouble, etc
 
 > [!NOTE]
 > TODO: 
