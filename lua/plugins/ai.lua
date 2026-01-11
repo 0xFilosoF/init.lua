@@ -1,0 +1,47 @@
+return {}
+-- return {
+--   "yetone/avante.nvim",
+--   event = "VeryLazy",
+--   version = false,
+--   ---@module 'avante'
+--   ---@type avante.Config
+--   opts = {
+--     instructions_file = "AGENTS.md",
+--     provider = "gemini-cli",
+--     providers = {
+--       claude = {
+--         extra_request_body = {
+--           temperature = 0,
+--           max_tokens = 4096,
+--         },
+--       },
+--     },
+--     shortcuts = {
+--       {
+--         name = "refactor",
+--         description = "Refactor code with best practices",
+--         details = "Automatically refactor code to improve readability, maintainability, and follow best practices while preserving functionality",
+--         prompt = "Please refactor this code following best practices, improving readability and maintainability while preserving functionality.",
+--       },
+--     },
+--   },
+--   build = "make",
+--   dependencies = {
+--     "nvim-lua/plenary.nvim",
+--     "MunifTanjim/nui.nvim",
+--     "echasnovski/mini.pick",
+--     "nvim-telescope/telescope.nvim",
+--     -- "hrsh7th/nvim-cmp",
+--     "ibhagwan/fzf-lua",
+--     "stevearc/dressing.nvim",
+--     "folke/snacks.nvim",
+--     "nvim-tree/nvim-web-devicons",
+--     {
+--       "MeanderingProgrammer/render-markdown.nvim",
+--       opts = {
+--         file_types = { "markdown", "Avante" },
+--       },
+--       ft = { "markdown", "Avante" },
+--     },
+--   },
+-- }
