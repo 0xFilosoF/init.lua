@@ -9,7 +9,7 @@
 - **AI Integration**: Windsurf (ex-Codeium)
 - **Other**: Support daps, snacks, noice, leap, trouble, etc
 
-> [!TODO]
+> [!NOTE] TODO
 > - NvChad -> Full clean [LazyVim](https://www.lazyvim.org/)
 > - Windsurf -> Copilot (?) and [OpenCode](https://github.com/anomalyco/opencode) + [ClaudeCode](https://github.com/anthropics/claude-code)
 
