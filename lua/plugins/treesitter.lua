@@ -2,40 +2,52 @@ return {
   "nvim-treesitter/nvim-treesitter",
   lazy = false,
   opts = {
+    -- NOTE: ensure_installed deprecated, but working woth NvChad
     ensure_installed = {
       "bash",
-      "html",
-      "css",
-      "markdown",
-      "markdown_inline",
-
+      "zsh",
       "vim",
       "vimdoc",
+      "markdown",
+      "markdown_inline",
+      "hyprlang",
+      "nix",
+
+      "html",
+      "css",
       "xml",
       "yaml",
       "toml",
+      "csv",
 
       "c",
       "cpp",
+      "rust",
 
       "lua",
       "luadoc",
       "luap",
 
+      "python",
       "javascript",
+      "typescript",
       "jsdoc",
       "json",
       "jsonc",
 
+      "make",
+      "cmake",
+      "terraform",
+
       "tsx",
-      "typescript",
       "prisma",
 
-      "sql",
+      "elixir",
+      "erlang",
+      "gleam",
 
-      "python",
       "go",
-      "rust",
+      "sql",
       "solidity",
     },
     indent = {
