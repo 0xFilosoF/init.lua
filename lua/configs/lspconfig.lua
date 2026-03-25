@@ -96,13 +96,21 @@ local servers = {
   },
   rust_analyzer = {
     -- see https://rust-analyzer.github.io/book/configuration.html
-    --   settings = {
-    --     ["rust-analyzer"] = {
-    --       check = {
-    --         command = "clippy",
-    --       },
-    --     },
-    --   },
+    settings = {
+      ["rust-analyzer"] = {
+        -- check = {
+        --   command = "clippy",
+        -- },
+        cargo = {
+          buildScripts = {
+            enable = true,
+          },
+        },
+        procMacro = {
+          enable = true,
+        },
+      },
+    },
   },
   solidity_ls_nomicfoundation = {},
 }
