@@ -87,7 +87,7 @@ return {
       -- Rust (codelldb)
       dap.adapters.codelldb = {
         type = "executable",
-        command = vim.fn.expand "~" .. "/codelldb-linux-x64/extension/adapter/codelldb", -- or codelldb
+        command = "codelldb",
       }
 
       -- ╭──────────────────────────────────────────────────────────╮
